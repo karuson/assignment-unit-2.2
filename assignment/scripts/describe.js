@@ -28,7 +28,7 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called name and assign the string 'Dane' as its value
 // We create a conditional statement to check whether the name variable is equal to 'Mary'
-// We check if name is equal to 'Mary'.  
+// We check if name is equal to 'Mary'
 // name does not equal Mary so we console log 'How do you do?'
 
 //CODE
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/*
+We declare a variable 'secret' and do not assign it a value
+We declare a variable 'code' and assign its value to be 123
+We check to see if code is equal to 123.  123 equals 123 so secret now has the value of 'super'
+Code is assigned a new value equal to code times two. So code is now equal to 246.
+We then check if code is greater than 250, it is not.
+So we console log 'super'
+*/ 
 
 //CODE
 /*
