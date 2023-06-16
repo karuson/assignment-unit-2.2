@@ -74,10 +74,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/*
+Declare isStudent as a variable and assign it a boolean value of true
+Declare age and assign the number 34
+Delcare zip and assign the number 55407
+We check if both isStudent is true and zip is greater than 80000
+Zip is less than 80000 so we check if isStudent is false or age is less than 30
+Neither are true so we check if isStudent is false or if age is less than 30
+isStudent is true and age is 34 so we check if isStudent is true
+It is so we console log 'Welcome to Prime!'
+*/
+
+
 
 //CODE
 /*
@@ -136,6 +144,9 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+
+// FIX colorOne should be set to blue and colorTwo should be set to red
+
 let mix = true;
 
 if (mix === true) {
