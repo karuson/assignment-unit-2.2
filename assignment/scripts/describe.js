@@ -24,7 +24,6 @@ if (number >= 2) {
 
 */
 
-
 // 1. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called name and assign the string 'Dane' as its value
 // We create a conditional statement to check whether the name variable is equal to 'Mary'
@@ -40,7 +39,6 @@ if (name === 'Mary') {
 } else {
   console.log('How do you do?');
 }
-
 
 */
 
@@ -85,8 +83,6 @@ isStudent is true and age is 34 so we check if isStudent is true
 It is so we console log 'Welcome to Prime!'
 */
 
-
-
 //CODE
 /*
 let isStudent = true;
@@ -102,11 +98,7 @@ if (isStudent === true && zip > 80000 ) {
 } else {
   console.log('How about the weather?')
 }
-
 */
-
-
-
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
