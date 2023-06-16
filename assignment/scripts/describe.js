@@ -133,17 +133,19 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
+/* 
+
+// FIX colorOne should be set to 'blue' and colorTwo should be set to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 
-// FIX colorOne should be set to blue and colorTwo should be set to red
-
 let mix = true;
 
+// FIX colorTwo should also be set to 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -167,10 +169,24 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX asks to check if age is greater/equal to minAge
+// This would display 'no entry' if age is 21 
+// Should be ( age >= minAge)
+// FIX 'enter' should console.log in the if conditional
+// FIX 'no entry' should be the console.log in the else conditional
+
 if(minAge <= age) {
-  console.log('no entry');
+  console.log('no entry'); 
 } else {
   console.log('enter');
 }
 */
 
+/* so it would look like this:
+
+if( age >= minAge ) {
+  console.log( 'enter' );
+} else {
+  console.log( 'no entry' );
+}
+*/
