@@ -26,10 +26,10 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 /*
-We declare a variable called name and assign the string 'Dane' as its value
-We create a conditional statement to check whether the name variable is equal to 'Mary'
-We check if name is equal to 'Mary'
-name does not equal Mary so we console log 'How do you do?'
+We declare a variable 'name' and assign the string 'Dane' as its value
+We create a conditional statement to check whether name is equal to 'Mary'
+'Dane' is not equal to 'Mary' so we follow the else conditional
+We console log 'How do you do?'
 */
 
 //CODE
@@ -46,12 +46,13 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 /*
-We declare a variable 'secret' and do not assign it a value
-We declare a variable 'code' and assign its value to be 123
-We check to see if code is equal to 123.  123 equals 123 so secret now has the value of 'super'
-Code is assigned a new value equal to code times two. So code is now equal to 246.
-We then check if code is greater than 250, it is not.
-So we console log 'super'
+We declare a variable 'secret'
+We declare a variable 'code' and assign 123 as a number
+We check to see if code is equal to 123.  123 is equal to 123 so secret is set to 'super'
+code is assigned a new value equal to its number value (123) multiplied by two
+code now holds a numerical value of 246
+We then check if code is greater than 250
+It is not so we console log 'super'
 */ 
 
 //CODE
@@ -75,14 +76,13 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 /*
-Declare isStudent as a variable and assign it a boolean value of true
-Declare age and assign the number 34
-Delcare zip and assign the number 55407
+Declare a variable isStudent and assign it a boolean value of true
+Declare a variable age and assign 34 as a number
+Delcare a variable zip and assign 55407 as a number
 We check if both isStudent is true and zip is greater than 80000
 Zip is less than 80000 so we check if isStudent is false or age is less than 30
 Neither are true so we check if isStudent is false or if age is less than 30
-isStudent is true and age is 34 so we check if isStudent is true
-It is so we console log 'Welcome to Prime!'
+isStudent is true so we console log 'Welcome to Prime!'
 */
 
 //CODE
@@ -129,8 +129,6 @@ if (number >= 2) {
 
 */
 
-
-
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
@@ -143,7 +141,7 @@ let colorTwo = 'blue';
 
 let mix = true;
 
-// FIX colorTwo should also be set to 'purple'
+// FIX instructions state colorTwo should also be set to 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -155,9 +153,15 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
-let temp = 40;
-const time = 4;
 
+// felt too picky to call out, but should the variable type be specified?
+// feel free to tell me I'm just nitpicking :)
+
+let temp = 40;
+const time = 4;  
+
+// FIX instructions state to check temp and time
+// the OR operator should be replaced with an AND operator (&&)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -174,8 +178,8 @@ const minAge = 21;
 // FIX asks to check if age is greater/equal to minAge
 // This would display 'no entry' if age is 21 
 // Should be ( age >= minAge)
-// FIX 'enter' should console.log in the if conditional
-// FIX 'no entry' should be the console.log in the else conditional
+// FIX we should console log 'enter' if age is greater or equal to 21
+// FIX we should console log 'no entry' if age is less or equal to 21
 
 if(minAge <= age) {
   console.log('no entry'); 
@@ -184,7 +188,10 @@ if(minAge <= age) {
 }
 */
 
-/* so it would look like this:
+/* 
+// I just wrote it out to visualize
+let age = 21;
+const minAge = 21;
 
 if( age >= minAge ) {
   console.log( 'enter' );
